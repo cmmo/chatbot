@@ -20,6 +20,19 @@ export const models: Array<Model> = [
     apiIdentifier: 'gpt-4o',
     description: 'For complex, multi-step tasks',
   },
+  {
+    id: 'o1-mini',
+    label: 'o1 mini',
+    apiIdentifier: 'o1-mini',
+    description: 'For complex, reasoning tasks',
+  },
+  {
+    id: 'o1-preview',
+    label: 'o1 preview',
+    apiIdentifier: 'o1-preview',
+    description: 'For complex, reasoning tasks',
+  },
+
 ] as const;
 
 export const DEFAULT_MODEL_NAME: string = 'gpt-4o-mini';
